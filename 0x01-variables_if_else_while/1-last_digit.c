@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-/** This program will assign a random number to the variable n
+/** main - This program will assign a random number to the variable n
  * and returns the last digit
  * Return always : 0
  */
