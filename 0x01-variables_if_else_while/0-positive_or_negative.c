@@ -2,22 +2,25 @@
 #include <time.h>
 #include <stdio.h>
 /* more headers goes there */
-
 /* betty style doc for function main goes there */
 int main(void)
 {
+	/*this is the main function*/
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-
 /* checks if a number is posite or negative*/
-
-	if(n > 0) {
-		printf("%d is positive \n", n);
-	} else if(n == 0) {
+	if (n > 0) 
+	{
+		printf("%d is positive\n", n);
+	} 
+	else if (n == 0)
+       	{
 		printf("%d is zero\n", n);
-	} else {
+	} 
+	else 
+	{
 		printf("%d is negative\n", n);
 	}
 	return (0);
