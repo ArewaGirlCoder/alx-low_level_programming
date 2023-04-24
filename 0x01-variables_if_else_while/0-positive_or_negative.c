@@ -9,6 +9,7 @@ int main(void)
 	int n;
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+
 /* checks if a number is posite or negative*/
 	if (n > 0)
 	{
