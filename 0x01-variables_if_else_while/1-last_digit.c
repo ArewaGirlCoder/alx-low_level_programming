@@ -2,14 +2,15 @@
 #include <time.h>
 #include <stdio.h>
 
-/** this prints
- * the last digit
+/** This program will assign a random number to the variable n
+ * and returns the last digit
  * Return always : 0
  */
 int main(void)
 {
 	int n;
 	int x;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	x = n % 10;
